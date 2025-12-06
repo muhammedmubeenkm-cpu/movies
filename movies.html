@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineStream - Movies</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">Sanju<span>Stream</span></div>
+  <nav class="desktop-menu">
+    <a href="../index.html">Home</a>
+    <a href="movies.html" class="active">Movies</a>
+    <a href="series.html">Series</a>
+    <a href="mylist.html">My List</a>
+  </nav>
+  <div id="menuBtn" class="menu-btn">&#9776;</div>
+  <nav id="mobileNav" class="mobile-nav">
+    <a href="../index.html">Home</a>
+    <a href="movies.html">Movies</a>
+    <a href="series.html">Series</a>
+    <a href="mylist.html">My List</a>
+  </nav>
+</header>
+
+<section class="hero" style="background: linear-gradient(to bottom, rgba(0,0,0,0.6), #000), url('https://irs.www.warnerbros.com/hero-banner-v2-tablet-jpeg/movies/media/browser/inception_banner.jpg') center/cover no-repeat;">
+  <div class="hero-text">
+    <h1>All Movies</h1>
+    <p>Explore our extensive movie collection.</p>
+  </div>
+</section>
+
+<section class="slider-section">
+  <h2>🎬 Popular Movies</h2>
+  <div class="slider" id="slider"></div>
+</section>
+
+<div id="popup" class="popup hidden">
+  <div class="popup-content">
+    <span class="close-popup" id="closePopup">&times;</span>
+    <img id="popupImg" src="" alt="Movie Poster">
+    <h3 id="popupTitle">Movie Title</h3>
+    <p id="popupDesc">Movie Description...</p>
+  </div>
+</div>
+
+<script src="../assets/js/script.js"></script>
+</body>
+</html>
+

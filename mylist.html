@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineStream - My List</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">Sanju<span>Stream</span></div>
+  <nav class="desktop-menu">
+    <a href="../index.html">Home</a>
+    <a href="movies.html">Movies</a>
+    <a href="series.html">Series</a>
+    <a href="mylist.html" class="active">My List</a>
+  </nav>
+  <div id="menuBtn" class="menu-btn">&#9776;</div>
+  <nav id="mobileNav" class="mobile-nav">
+    <a href="../index.html">Home</a>
+    <a href="movies.html">Movies</a>
+    <a href="series.html">Series</a>
+    <a href="mylist.html">My List</a>
+  </nav>
+</header>
+
+<section class="hero" style="background: linear-gradient(to bottom, rgba(0,0,0,0.6), #000), url('https://static.vecteezy.com/system/resources/thumbnails/005/720/479/small/banner-abstract-background-board-for-text-and-message-design-modern-free-vector.jpg') center/cover no-repeat;">
+  <div class="hero-text">
+    <h1>My List</h1>
+    <p>Your saved movies and series.</p>
+  </div>
+</section>
+
+<section class="slider-section">
+  <h2>💖 My Favorites</h2>
+  <div class="slider" id="slider"></div>
+</section>
+
+<div id="popup" class="popup hidden">
+  <div class="popup-content">
+    <span class="close-popup" id="closePopup">&times;</span>
+    <img id="popupImg" src="" alt="Poster">
+    <h3 id="popupTitle">Title</h3>
+    <p id="popupDesc">Description...</p>
+  </div>
+</div>
+
+<script src="../assets/js/script.js"></script>
+</body>
+</html>
+
+
+
